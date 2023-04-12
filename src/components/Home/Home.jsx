@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <>
     <Nav />
-    <section className='w-[100%] bg-[#06345C]  pt-12 relative pb-24'>
+    <section className='w-[100%] bg-[#06345C]  pt-12 md:pt-0 relative pb-24'>
         <section className='flex justify-between md:flex-col'>
         <div className='w-[45%] ml-[5%] md:w-[90%]'>
         <h2 className='text-white font-semibold text-5xl mt-16'>We offer the <span className='text-[#42B8E9]'>best</span > digital solution for your cooperative </h2>
@@ -31,11 +31,11 @@ const Home = () => {
             <button className="text-white font-medium text-base border-[1px] border-[#42b8e9] px-5 py-3 rounded-lg ml-5">Live Demo</button>
         </div>
     </div>
-    <div className='w-[50%] mr-[0%] md:w-[90%]'>
+    <div className='w-[50%] mr-[0%] md:w-[90%] md:mt-4'>
         <img src={HeroImage} alt="Hero pics" />
     </div>
         </section>
-        <section className='flex justify-between pl-[5%] pr-[5%]  w-[100%] absolute bottom-[-27.8%] md:flex-col  '>
+        <section className='flex justify-between pl-[5%] pr-[5%]  w-[100%] absolute bottom-[-27.8%] md:bottom-[-84.3%] md:flex-col  '>
         <div className='bg-white w-[22%] md:w-[100%] md:mb-4  flex justify-center flex-col items-center text-center py-7 px-5'>
             <img src={maskedThree} className='w-[50px]' alt="Automated Accounting system" />
             <h2 className='text-base font-medium text-[#09367A] py-5'>Automated Accounting system</h2>
@@ -60,10 +60,10 @@ const Home = () => {
         </div>
     </section>
     </section>
-    <main className='bg-[#C2C2C2] w-[100%] pt-24 pb-24'>
+    <main className='bg-[#C2C2C2] w-[100%] pt-24 md:pt-96 pb-24 '>
 
-  <section className='mt-48 '>
-    <h2 className='font-semibold text-3xl text-center text-[#09367A] mb-12'>About Us</h2>
+  <section className='mt-48 md:mt-96'>
+    <h2 className='font-semibold text-3xl text-center text-[#09367A] mb-12 md:pt-48'>About Us</h2>
     <section className='flex justify-center w-[80%] mx-auto items-center md:flex-col '>
         <div className='w-[50%] rounded-sm md:rounded-b-[0px] md:w-[100%]'>
 <img src={womenViewing} alt="two women viewing " className='w-[100%] rounded-lg' />

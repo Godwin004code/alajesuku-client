@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa"
 
 const Nav = () => {
     return (
-        <header className="bg-[#06345C] w-[100%] py-3 flex justify-between">
+        <header className="bg-[#06345C] w-[100%] py-3 pt-5 md:pt-8 flex justify-between">
             <div className="ml-[5%]">
                 <img src={Logo} alt="Logo" />
             </div>

@@ -13,7 +13,7 @@ const Testimonial = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         useCSS: false
       };
   return (

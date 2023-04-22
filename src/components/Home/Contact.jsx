@@ -5,10 +5,10 @@ import {BsPhone } from "react-icons/bs"
 
 const Contact = () => {
   return (
-    <section>
+    <section className='pb-24'>
     <h2 className='font-semibold text-3xl text-[#09367A] text-center mt-36'>Contact Us</h2>
     <p  className='text-base font-normal text-[#212A41] mt-5 text-center w-[90%] mx-auto mb-16'>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit i lorem ipsum </p>
-    <section className='flex bg-[white] p-7 w-[90%] mx-auto rounded-2xl md:flex-col'>
+    <section className='contact flex bg-[white] p-7 w-[90%] mx-auto rounded-2xl md:flex-col'>
         <div className='bg-[#06345C] w-[30%] py-5 px-3 md:w-[100%]'>
             <div className='bg-[#EBEEF6] flex items-center rounded-2xl pl-4 py-4 mb-3'>
                 <div className='bg-[#3262C1] rounded-full flex items-center justify-center w-[50px] h-[50px] text-white'>
@@ -47,7 +47,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        <div className='ml-4 w-[70%] text-center md:w-[100%]'>
+        <div className='ml-4 md:ml-0 md:mt-8 w-[70%] text-center md:w-[100%]'>
             <div className='w-[100%] flex justify-between mb-4'>
                 <input  className='border-[#867A7A80] border-[1px] h-[45px] pl-3 w-[45%] rounded' type="text" placeholder='Your Name' />
                 <input  className='border-[#867A7A80] border-[1px] h-[45px] pl-3 w-[45%] rounded'  type="email" name="email" placeholder='Your Email' />

@@ -1,13 +1,7 @@
 import React from 'react'
 import Nav from '../Nav'
 import HeroImage from "../../Assets/dashboard 3.png"
-import maskedOne from "../../Assets/Mask group (1).png"
-import maskedTwo from "../../Assets/Mask group (2).png"
-import maskedThree from "../../Assets/Mask group.png"
 import womenViewing from "../../Assets/two-women-viewing-content-phone-local-african-market 1.png"
-import aboutImgOne from "../../Assets/Frame 125 (1).png"
-import aboutImgTwo from "../../Assets/Frame 125 (2).png"
-import aboutImgThree from "../../Assets/Frame 125 (3).png"
 import aboutImgFive from "../../Assets/Frame 125.png"
 import Footer from './Footer'
 
@@ -24,8 +18,8 @@ const Home = () => {
     <Nav />
     <section className='w-[100%] bg-[#06345C]  pt-12 md:pt-0 relative pb-[500px] '>
         <section className='100%'>
-        <div className='w-[70%] text-center mx-auto '>
-        <h2 className='text-white font-semibold text-5xl mt-10'>We offer the <span className='text-[#42B8E9]'>best</span > digital solution for your cooperative </h2>
+        <div className='w-[70%] text-center mx-auto md:pt-10'>
+        <h2 className='text-white font-semibold text-5xl '>We offer the <span className='text-[#42B8E9]'>best</span > digital solution for your cooperative </h2>
         <p className='w-[100%] text-white font-normal mt-7 mb-12'>Alajeseku is a unique cloud based cooperative management software that enables cooperative societies effectively record, manage loan transactions, member management, manage report inventories and run transparently, efficiently and proficiently.</p>
         <div>
             <button className="text-white font-medium text-base bg-[#42B8E9] px-5 py-3 rounded-lg">Contact us</button>

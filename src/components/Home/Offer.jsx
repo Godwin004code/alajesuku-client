@@ -1,6 +1,6 @@
 import React from 'react'
-import OfferTwo from "../../Assets/asset 17 (1).png"
-import OfferOne from "../../Assets/asset 17.png"
+import OfferTwo from "../../Assets/2023-05-22 (1) 2.png"
+import OfferOne from "../../Assets/2023-05-22 (1) 1.png"
 
 const Offer = () => {
   return (
@@ -13,14 +13,14 @@ const Offer = () => {
                 <p>loreem dolar  ipsum dolor sit amet, cnsectetur adipiscing eliiilyit. Nunc liii vulputate libero et velit interdum, ac aliquet odio mattis. Classs aptent taciti sociosqu ad litora adipiscing elit nun. lorem ipsumClasss aptent taciti sociosqu ad litora adipiscing elit nun. lorem ipsum</p>
             </div>
             <div className='w-[40%]'>
-    <img src={OfferOne} className='w-[100%]' alt="Automated Accounting System." />
+    <img src={OfferTwo} className='w-[100%]' alt="Automated Accounting System." />
             </div>
         </section>
         <section className='flex justify-between w-[100%] mb-36'>
             <div className='w-[40%]'>
-                <img src={OfferTwo} className='w-[100%]' alt="Daily reports and insight and efficient User management" />
+                <img src={OfferOne} className='w-[100%]' alt="Daily reports and insight and efficient User management" />
             </div>
-            <div className='w-[50%]'>
+            <div className='w-[50%] mt-24'>
             <h2 className='font-semibold text-[#06345C] text-3xl mb-4'>Daily reports and insight and efficient User management.</h2>
                 <p>loreem dolar  ipsum dolor sit amet, cnsectetur adipiscing eliiilyit. Nunc liii vulputate libero et velit interdum, ac aliquet odio mattis. Classs aptent taciti sociosqu ad litora adipiscing elit nun. lorem ipsumClasss aptent taciti sociosqu ad litora adipiscing elit nun. lorem ipsum</p>
             </div>

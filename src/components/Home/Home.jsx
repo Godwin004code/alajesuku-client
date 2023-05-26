@@ -9,10 +9,12 @@ import { BsChevronRight } from "react-icons/bs"
 import Testimonial from './Testimonial'
 import Contact from './Contact'
 import Offer from './Offer'
+import { Link } from 'react-router-dom'
 
 
 
 const Home = () => {
+   
   return (
     <>
     <Nav />
@@ -22,17 +24,19 @@ const Home = () => {
         <h2 className='text-white font-semibold text-5xl '>We offer the <span className='text-[#42B8E9]'>best</span > digital solution for your cooperative </h2>
         <p className='w-[100%] text-white font-normal mt-7 mb-12'>Alajeseku is a unique cloud based cooperative management software that enables cooperative societies effectively record, manage loan transactions, member management, manage report inventories and run transparently, efficiently and proficiently.</p>
         <div>
+        <Link to="/contact-us">
             <button className="text-white font-medium text-base bg-[#42B8E9] px-5 py-3 rounded-lg">Contact us</button>
+            </Link>
             <button className="text-white font-medium text-base border-[1px] border-[#42b8e9] px-5 py-3 rounded-lg ml-5">Live Demo</button>
         </div>
     </div>
-    <div className='w-[90%] left-[5%] mx-auto mt-14 absolute top-[40%]'>
-        <img src={HeroImage} alt="Hero pics" />
+    <div className='w-[90%] left-[5%]  mx-auto mt-14 absolute top-[40%]'>
+        <img src={HeroImage} className='w-[100%]' alt="Hero pics" />
     </div>
         </section>
        
     </section>
-    <main className='bg-[#f8f8f8] w-[100%] pt-24 md:pt-96 pb-24 '>
+    <main className='bg-[#f8f8f8] w-[100%] pt-96 md:pt-96 pb-24 '>
 
   <section className='mt-48 md:mt-96'>
     <h2 className='font-semibold text-3xl text-center text-[#09367A] mb-12 md:pt-48'>About Us</h2>
@@ -140,7 +144,9 @@ and organizations</p>
      <p className='text-[#57606A] text-xs font-normal mt-4 mr-1'>$</p>
       <h2 className='text-[#0049AA] font-normal text-7xl'>0</h2>
        <p className='text-xs font-light text-[#57606A] mt-3 ml-1'>per member <br /> monthly</p> </div>
-<button className="text-[#42b8e9] font-medium text-base border-[1px] border-[#42b8e9] w-[90%] mx-auto py-3 rounded-lg">Contact us</button>
+       <Link to="/contact-us"><button className="text-[#42b8e9] font-medium text-base border-[1px] border-[#42b8e9] w-[90%] mx-auto py-3 rounded-lg">
+    Contact us
+    </button></Link>
             </div>
             <div className='w-[100%] bg-[#F6F8FA99] pt-5 pb-24 rounded-b-2xl'>
                 <div className='flex w-[90%] mx-auto mb-3'>
@@ -177,8 +183,10 @@ plus more</p>
 <div className='flex justify-center w-[100%] my-4'>
      <p className='text-[#57606A] text-xs font-normal mt-4 mr-1'>$</p>
       <h2 className='text-[#0049AA] font-normal text-7xl'>2</h2>
-       <p className='text-xs font-light text-[#57606A] mt-3 ml-1'>per member <br /> monthly</p> </div>
-<button className="text-[#42b8e9] font-medium text-base border-[1px] border-[#42b8e9] w-[90%] mx-auto py-3 rounded-lg">Contact us</button>
+ 
+      <p className='text-xs font-light text-[#57606A] mt-3 ml-1'>per member <br /> monthly</p> </div>
+      <Link to="/contact-us">
+<button className="text-[#42b8e9] font-medium text-base border-[1px] border-[#42b8e9] w-[90%] mx-auto py-3 rounded-lg">Contact us</button></Link>
             </div>
             <div className='w-[100%] bg-[#F6F8FA99] pt-5 pb-24 rounded-b-2xl'>
             <div className='flex w-[90%] mx-auto mb-3'>
@@ -216,7 +224,8 @@ plus more</p>
      <p className='text-[#57606A] text-xs font-normal mt-4 mr-1'>$</p>
       <h2 className='text-[#0049AA] font-normal text-7xl'>7</h2>
        <p className='text-xs font-light text-[#57606A] mt-3 ml-1'>per member <br /> monthly</p> </div>
-<button className="text-[#42b8e9] font-medium text-base border-[1px] border-[#42b8e9] w-[90%] mx-auto py-3 rounded-lg">Contact us</button>
+       <Link to="/contact-us">
+<button className="text-[#42b8e9] font-medium text-base border-[1px] border-[#42b8e9] w-[90%] mx-auto py-3 rounded-lg">Contact us</button></Link>
             </div>
             <div className='w-[100%] bg-[#F6F8FA99] pt-5 pb-24 rounded-b-2xl'>
             <div className='flex w-[90%] mx-auto mb-3'>

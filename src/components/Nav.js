@@ -1,7 +1,7 @@
 
-import Logo from "../Assets/nav link.png"
-import { Link } from "react-router-dom"
-import { FaBars } from "react-icons/fa"
+import Logo from "../Assets/nav link.png";
+import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 const Nav = () => {
     return (
@@ -11,8 +11,8 @@ const Nav = () => {
             </div>
             <nav className="mr-[5%] w-[40%] sm:hidden">
                 <ul className="flex justify-between items-center">
-                    <li >
-                        <Link className="text-white font-normal text-base mt-4 " to='/'>Home</Link>
+                    <li>
+                        <Link className={window.location.pathname === "/" ? "text-[#66D2FF] font-normal text-base" : "text-white font-normal text-base"} to='/'>Home</Link>
                     </li>
                     <li>
                         <Link className="text-white font-normal text-base" to="/">About us</Link>
@@ -21,12 +21,14 @@ const Nav = () => {
                         <Link className="text-white font-normal text-base" to="/">Services</Link>
                     </li>
                     <li>
-                        <Link className="text-white font-normal text-base" to="/">Contact us</Link>
+                        <Link className={window.location.pathname === "/contact-us" ? "text-[#66D2FF] font-normal text-base" : "text-white font-normal text-base"} to="/contact-us">Contact us</Link>
                     </li>
                     <li className="ml-7">
                         <Link className="text-white font-normal text-base" to="/">Sign in</Link>
                     </li>
+                    <Link to="/contact-us">
                     <button className="text-white font-medium text-base bg-[#42B8E9] px-5 py-3 rounded-lg">Contact Us</button>
+                    </Link>
                 </ul>
             </nav>
             <div className="hidden md:block text-white md:mr-[5%] text-2xl">

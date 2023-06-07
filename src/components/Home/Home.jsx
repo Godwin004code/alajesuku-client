@@ -4,7 +4,7 @@ import HeroImage from "../../Assets/dashboard 3.png"
 import womenViewing from "../../Assets/two-women-viewing-content-phone-local-african-market 1.png"
 import aboutImgFive from "../../Assets/Frame 125.png"
 import Footer from './Footer'
-
+import {  GrCheckmark } from "react-icons/gr"
 import { BsChevronRight } from "react-icons/bs"
 import Testimonial from './Testimonial'
 import Contact from './Contact'
@@ -17,39 +17,48 @@ const Home = () => {
    
   return (
     <>
+    
     <Nav />
     <section className='w-[100%] bg-[#06345C]  pt-12 md:pt-0 relative pb-[500px] '>
         <section className='100%'>
         <div className='w-[70%] text-center mx-auto md:pt-10'>
-        <h2 className='text-white font-semibold text-5xl '>We offer the <span className='text-[#42B8E9]'>best</span > digital solution for your cooperative </h2>
+        <h2 className='text-white font-semibold text-6xl mt-10 '>We offer the best digital solution for your cooperative </h2>
         <p className='w-[100%] text-white font-normal mt-7 mb-12'>Alajeseku is a unique cloud based cooperative management software that enables cooperative societies effectively record, manage loan transactions, member management, manage report inventories and run transparently, efficiently and proficiently.</p>
-        <div>
+        <div className='mb-20'>
         <Link to="/contact-us">
-            <button className="text-white font-medium text-base bg-[#42B8E9] px-5 py-3 rounded-lg">Contact us</button>
+            <button className="contact-us text-white font-medium text-base bg-[#42B8E9] px-12 py-3 rounded-lg">Contact us</button>
             </Link>
-            <button className="text-white font-medium text-base border-[1px] border-[#42b8e9] px-5 py-3 rounded-lg ml-5">Live Demo</button>
+            <button className="live-demo text-white font-medium text-base border-[1px] border-[#fff] px-12 py-3 rounded-lg ml-5">Live Demo</button>
         </div>
     </div>
-    <div className='w-[90%] left-[5%]  mx-auto mt-14 absolute top-[40%]'>
+    <div className='w-[70%] left-[15%]  mx-auto mt-14 absolute top-[40%]'>
         <img src={HeroImage} className='w-[100%]' alt="Hero pics" />
     </div>
         </section>
        
     </section>
-    <main className='bg-[#f8f8f8] w-[100%] pt-96 md:pt-96 pb-24 '>
+    <main className='bg-[#f8f8f8] w-[100%] pt-72 md:pt-96 pb-24 '>
 
-  <section className='mt-48 md:mt-96'>
-    <h2 className='font-semibold text-3xl text-center text-[#09367A] mb-12 md:pt-48'>About Us</h2>
-    <section className='flex justify-center w-[80%] mx-auto items-center md:flex-col '>
+  <section className=' '>
+    <section className='flex justify-center w-[90%] mx-auto items-center md:flex-col '>
         <div className='w-[50%] mt-48 rounded-sm md:rounded-b-[0px] md:w-[100%]'>
 <img src={womenViewing} alt="two women viewing " className='w-[100%] rounded-lg' />
         </div>
-        <div className='w-[50%] md:w-[100%] ml-10  mt-24  h-fit rounded-r-lg '>
-            <h2 className='font-semibold text-xl text-[#09367A] font-bold text-4xl mb-5'>About  Alajeseku</h2>
-<p className='text-[#3C3939] font-normal text-base'>
+        <div className='w-[50%] md:w-[100%] ml-10  h-fit rounded-r-lg '>
+            <h2 className=' text-[#09367A] font-bold text-4xl mb-5'>About  Alajeseku</h2>
+<p className='text-[#3C3939] font-normal text-base mt-10 leading-8'>
 Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, Curabitur tempus urna at turpis condimentum lobortis em ipsum dolor sit amet, consectetur adipiscing elit nun. lorem ipsum dolar sit.ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis em ipsum dolor sit amet, consectetur.
 </p>
-<p>
+<div  className='flex mt-5'>
+    <span><GrCheckmark /></span> <span className='ml-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, soluta.</span>
+</div>
+<div  className='flex my-4'>
+    <span><GrCheckmark /></span> <span className='ml-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, soluta.</span>
+</div>
+<div  className='flex mb-5'>
+    <span><GrCheckmark /></span> <span className='ml-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, soluta.</span>
+</div>
+<p className='leading-7'>
 urabitur tempus urna at turpis condimentum lobortis em ipsum dolor sit amet, consectetur.urabitur tempus urna at turpis condimentum lobortis em ipsum dolor sit amet, consectetur.
 </p>
         </div>
@@ -58,66 +67,66 @@ urabitur tempus urna at turpis condimentum lobortis em ipsum dolor sit amet, con
   </main>
   <section className='mt-36'>
     <div className='flex justify-between w-[90%] mx-auto'>
-    <h2 className='font-semibold text-4xl text-[#0C3F6B] w-[45%] '>The best management software
+    <h2 className='font-semibold text-4xl text-[#0C3F6B] w-[35%] '>The best management software
  your cooperative need</h2>
     <div className='text-base font-normal text-[#1D1D1D]   w-[40%] mb-16'>loreem dolar  ipsum dolor sit amet, consectetur adipiscing eliiilyit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Classs aptent taciti sociosqu ad litora adipiscing elit nun. lorem ipsum</div>
     </div>
     <section>
         <section className='flex justify-between w-[90%] mx-auto md:flex-col'>
-            <div className='service bg-white w-[30%]  items-center py-5 px-4 rounded-lg md:w-[100%]'>
+            <div className='service bg-white w-[30%]  items-center py-10 px-10 rounded-lg md:w-[100%]'>
                <div className='flex items-center'>
                 <img src={aboutImgFive} alt="Multiple Admin Access" />
                 <h2 className='font-semibold text-xl text-[#003AA9] ml-4'>Multiple Admin Access</h2>
                 </div>
                 <div className=''>
-                <p className='font-normal mt-4 text-base text-[#453F3F]'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad  </p>    
+                <p className='font-normal mt-4 text-base text-[#453F3F] leading-7'> Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus pariatur, rerum minima natus suscipit est velit deleniti accusamus qui, dignissimos alias ea quod, placeat aut harum repellendus ab sunt. </p>    
                 </div> 
             </div>
-            <div className='service bg-white w-[30%]  items-center py-5 px-4 rounded-lg md:w-[100%]'>
+            <div className='service bg-white w-[30%]  items-center p-10 rounded-lg md:w-[100%]'>
                <div className='flex items-center'>
                 <img src={aboutImgFive} alt="Multiple Admin Access" />
                 <h2 className='font-semibold text-xl text-[#003AA9] ml-4'>Multiple Admin Access</h2>
                 </div>
                 <div className=''>
-                <p className='font-normal mt-4 text-base text-[#453F3F]'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad  </p>    
+                <p className='font-normal mt-4 text-base text-[#453F3F] leading-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus pariatur, rerum minima natus suscipit est velit deleniti accusamus qui, dignissimos alias ea quod, placeat aut harum repellendus ab sunt.  </p>    
                 </div> 
             </div>
-            <div className='service bg-white w-[30%]  items-center py-5 px-4 rounded-lg md:w-[100%]'>
+            <div className='service bg-white w-[30%]  items-center p-10 rounded-lg md:w-[100%]'>
                <div className='flex items-center'>
                 <img src={aboutImgFive} alt="Multiple Admin Access" />
                 <h2 className='font-semibold text-xl text-[#003AA9] ml-4'>Multiple Admin Access</h2>
                 </div>
                 <div className=''>
-                <p className='font-normal mt-4 text-base text-[#453F3F]'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad  </p>    
+                <p className='font-normal mt-4 text-base text-[#453F3F] leading-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus pariatur, rerum minima natus suscipit est velit deleniti accusamus qui, dignissimos alias ea quod, placeat aut harum repellendus ab sunt.  </p>    
                 </div> 
             </div>
         </section>
-        <section className='flex justify-between w-[90%] mx-auto mt-4 md:flex-col'>
-        <div className='service bg-white w-[30%]  items-center py-5 px-4 rounded-lg md:w-[100%]'>
+        <section className='flex justify-between w-[90%] mx-auto mt-20 md:flex-col'>
+        <div className='service bg-white w-[30%]  items-center p-10 rounded-lg md:w-[100%]'>
                <div className='flex items-center'>
                 <img src={aboutImgFive} alt="Multiple Admin Access" />
                 <h2 className='font-semibold text-xl text-[#003AA9] ml-4'>Multiple Admin Access</h2>
                 </div>
                 <div className=''>
-                <p className='font-normal mt-4 text-base text-[#453F3F]'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad  </p>    
+                <p className='font-normal mt-4 text-base text-[#453F3F] leading-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus pariatur, rerum minima natus suscipit est velit deleniti accusamus qui, dignissimos alias ea quod, placeat aut harum repellendus ab sunt.  </p>    
                 </div> 
             </div>
-            <div className='service bg-white w-[30%]  items-center py-5 px-4 rounded-lg md:w-[100%]'>
+            <div className='service bg-white w-[30%]  items-center p-10 rounded-lg md:w-[100%]'>
                <div className='flex items-center'>
                 <img src={aboutImgFive} alt="Multiple Admin Access" />
                 <h2 className='font-semibold text-xl text-[#003AA9] ml-4'>Multiple Admin Access</h2>
                 </div>
                 <div className=''>
-                <p className='font-normal mt-4 text-base text-[#453F3F]'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad  </p>    
+                <p className='font-normal mt-4 text-base text-[#453F3F] leading-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus pariatur, rerum minima natus suscipit est velit deleniti accusamus qui, dignissimos alias ea quod, placeat aut harum repellendus ab sunt.  </p>    
                 </div> 
             </div>
-            <div className='service bg-white w-[30%]  items-center py-5 px-4 rounded-lg md:w-[100%]'>
+            <div className='service bg-white w-[30%]  items-center p-10 rounded-lg md:w-[100%]'>
                <div className='flex items-center'>
                 <img src={aboutImgFive} alt="Multiple Admin Access" />
                 <h2 className='font-semibold text-xl text-[#003AA9] ml-4'>Multiple Admin Access</h2>
                 </div>
                 <div className=''>
-                <p className='font-normal mt-4 text-base text-[#453F3F]'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad  </p>    
+                <p className='font-normal mt-4 text-base text-[#453F3F] leading-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus pariatur, rerum minima natus suscipit est velit deleniti accusamus qui, dignissimos alias ea quod, placeat aut harum repellendus ab sunt.  </p>    
                 </div> 
             </div>
         </section>

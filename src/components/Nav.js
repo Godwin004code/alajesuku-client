@@ -2,6 +2,7 @@
 import Logo from "../Assets/nav link.png";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import "./Hover.css"
 
 const Nav = () => {
     return (
@@ -27,7 +28,7 @@ const Nav = () => {
                         <Link className="text-white font-normal text-base" to="/">Sign in</Link>
                     </li>
                     <Link to="/contact-us">
-                    <button className="text-white font-medium text-base bg-[#42B8E9] px-5 py-3 rounded-lg">Contact Us</button>
+                    <button className="contact-us text-white font-medium text-base bg-[#42B8E9] px-5 py-3 rounded-lg">Contact Us</button>
                     </Link>
                 </ul>
             </nav>

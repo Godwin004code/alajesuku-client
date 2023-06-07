@@ -25,6 +25,9 @@ const Footer = () => {
             <li className="list-none"><FaLinkedinIn /></li>
             <li className="list-none"><AiFillInstagram /></li>
         </div>
+        <div className="mt-9">
+          copyright &copy; 2023 All rights reserved
+        </div>
       </section>
       
     </footer>

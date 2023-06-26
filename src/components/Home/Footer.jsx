@@ -19,11 +19,25 @@ const Footer = () => {
           helps cooperative societies effectively record & manage loan
           transactions effectively.
         </p>
-        <div className="flex justify-between text-[#CACACA] w-[60%]">
-            <li className="list-none"> <BsTwitter /></li>
-            <li className="list-none"><FaFacebookF /></li>
-            <li className="list-none"><FaLinkedinIn /></li>
-            <li className="list-none"><AiFillInstagram /></li>
+        <div className="flex justify-center mx-auto text-[#CACACA] w-[100%] text-center">
+            <li className="list-none w-[40px] h-[40px] footer "> <BsTwitter /></li>
+            <li className="list-none w-[40px] h-[40px] footer"><FaFacebookF /></li>
+            <li className="list-none w-[40px] h-[40px] footer"><FaLinkedinIn /></li>
+            <li className="list-none w-[40px] h-[40px] footer"><AiFillInstagram /></li>
+        </div>
+        <div className="flex justify-center mx-auto mt-9 text-[#CACACA] w-[100%] text-center">
+            <li className="list-none  itemn "> 
+            <a href="#home">Home</a>
+            </li>
+            <li className="list-none  itemn">
+              <a href="#about">About us</a>
+            </li>
+            <li className="list-none  itemn">
+              <a href="#services">Services</a>
+            </li>
+            <li className="list-none  itemn">
+              <a href="#contact">Contact</a>
+            </li>
         </div>
         <div className="mt-9">
           copyright &copy; 2023 All rights reserved

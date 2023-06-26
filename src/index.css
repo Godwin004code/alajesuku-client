@@ -44,6 +44,17 @@
   color: #06345C !important;
   
 }
+.slick-dots li button:before {
+  background-color:transparent !important;
+  color: white !important;
+  border-radius: 50% !important;
+  border: 1px solid #06345C !important;
+}
+.slick-dots li.slick-active button:before {
+  background-color: #06345C !important;
+  color: transparent !important;
+  border-radius: 50% !important;
+}
 
 
 .list-none.footer {
